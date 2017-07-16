@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  border: 1px #BBB solid;
+  padding: 20px;
+  background: #FDFDFD;
+}
+
+.display {
+  height: 20%;
+  border: 1px #BBB solid;
+  margin: 10px 5px;
+  padding: 20px;
+  background: #FFF;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.grid-button {
+  width: 25%;
+  margin: 5px;
+  background-color: #F6F6F6;
+  border: 2px, black, solid;
+}
