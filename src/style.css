@@ -17,7 +17,7 @@ body {
   height: 400px;
   border: 1px #BBB solid;
   padding: 20px;
-  background: #FDFDFD;
+  background: #FAFAFA;
 }
 
 .display {
@@ -49,6 +49,6 @@ body {
 .grid-button {
   width: 25%;
   margin: 5px;
-  background-color: #F6F6F6;
+  background-color: #f4f4f4;
   border: 2px, black, solid;
 }

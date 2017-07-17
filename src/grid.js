@@ -2,14 +2,6 @@ import React from 'react';
 
 
 export class Grid extends React.Component {
-//  renderButton(num) {
-//    return (
-//      <button className="grid-button">
-//        {num}
-//      </button>
-//    );
-//  }
-
   renderButton(op) {
     return (
       <button className="grid-button"
@@ -18,7 +10,6 @@ export class Grid extends React.Component {
       </button>
     );
   }
-
 
   render() {
     return (

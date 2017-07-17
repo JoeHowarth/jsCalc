@@ -5,27 +5,23 @@ import './style.css';
 import {Calc} from './calc'
 
 class SillyCalc extends React.Component {
+
+
   render() {
+    let descStyle = {marginBottom: 10,}
+
     return (
       <div>
-        <Description/>
-        <h1>what the hell</h1>
+        <div style={descStyle}>
+          <h1>SillyCalc.js</h1>
+          <h2>A little calculator built to learn React!</h2>
+        </div>
         <Calc/>
       </div>
     );
   }
 }
 
-function Description(props) {
-  render() {
-    return (
-      <div>
-        <h1>SillyCalc.js</h1>
-        <h2>A little calculator built to learn React!</h2>
-      </div>
-    );
-  }
-}
 
 
 // ==================
